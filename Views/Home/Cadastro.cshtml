@@ -1,0 +1,34 @@
+@model agendamento
+
+
+<h2>Cadastro</h2>
+<form method="POST" asp-action = "Cadastro">
+    <p>
+        <label>Nome: </label>
+        <input asp-for="nome" required>
+    </p>
+    <p>
+        <label>Telefone: </label>
+        <input asp-for="telefone" required>
+    </p>
+    <p>
+        <label>Data: </label>
+        <input asp-for="data" placeholder="dd/mm/aaa" required>
+    </p>
+    <p>
+        <label>Animal: </label>
+        <select class="form-select" aria-label="Default select example" asp-for="animal" required>
+          <option selected></option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Gato">Gato</option>
+          <option value="Pássaro">Pássaro</option>
+          <option value="Peixe">Peixe</option>
+        </select>
+        
+    </p>
+    <p>
+        <label>Necessidades: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="necessidades"></textarea>
+    </p>
+    <input type="submit" value="Cadastrar">
+</form>

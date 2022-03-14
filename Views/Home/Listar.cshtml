@@ -1,0 +1,24 @@
+@model List<agendamento>
+
+
+   <h2>Lista de cadastro:</h2>
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Data</th>
+            <th>Animal</th>
+            <th>Necessidades</th>
+        </tr>
+        <tr>
+            @foreach (agendamento item in Model)
+            {
+                <tr>
+                    <th>@item.nome</th>
+                    <th>@item.telefone</th>
+                    <th>@item.data</th>
+                    <th>@item.animal</th>
+                    <th>@item.necessidades</th>
+                </tr>
+            }
+        </tr>
