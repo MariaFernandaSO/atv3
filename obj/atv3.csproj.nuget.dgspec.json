@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernanda\\OneDrive\\Área de Trabalho\\atv3\\atv3.csproj": {}
+    "C:\\Users\\Fernanda\\OneDrive\\Documentos\\atv3\\atv3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernanda\\OneDrive\\Área de Trabalho\\atv3\\atv3.csproj": {
+    "C:\\Users\\Fernanda\\OneDrive\\Documentos\\atv3\\atv3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernanda\\OneDrive\\Área de Trabalho\\atv3\\atv3.csproj",
+        "projectUniqueName": "C:\\Users\\Fernanda\\OneDrive\\Documentos\\atv3\\atv3.csproj",
         "projectName": "atv3",
-        "projectPath": "C:\\Users\\Fernanda\\OneDrive\\Área de Trabalho\\atv3\\atv3.csproj",
+        "projectPath": "C:\\Users\\Fernanda\\OneDrive\\Documentos\\atv3\\atv3.csproj",
         "packagesPath": "C:\\Users\\Fernanda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernanda\\OneDrive\\Área de Trabalho\\atv3\\obj\\",
+        "outputPath": "C:\\Users\\Fernanda\\OneDrive\\Documentos\\atv3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernanda\\AppData\\Roaming\\NuGet\\NuGet.Config"
